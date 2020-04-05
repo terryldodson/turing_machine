@@ -33,6 +33,8 @@ encrypt nor decrypt them.  E. g., 5:encrypted NOT ENCRYPTED$ -> 5:necoypsni NOT 
 * Again, our machine WILL NOT process numerals!  This is because after reading past a numeral, when
 the machine backs up looking for the shift number, it will read the numeral as the shift number and
 change the cipher going forward.
+* Also, '#' and '$' are not valid members of any input string, as they are used by the machine to remember
+the character slot being processed and to recognize the end of the input string, respectively.
 * If the shift number x is used to encrypt a string, then the number y = 10 - x will decrypt the ciphertext
 generated with the x shift.  E. g., 3:test$ -> 3:iodi$ and 7:iodi$ -> 7:test$.
 * We use ten letters in our alphabet because that allows a maximum of nine shifts.  If we have eleven or
