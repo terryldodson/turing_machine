@@ -1,6 +1,6 @@
 # COSC 312: Turing Machine Team Project
 
-# Summary
+## Summary
 The configuration for our final machine to be submitted for grading is the file "tm_final.txt".
 The file "scratch.pdf" is the final set of notes corresponding to the final design configuration.
 That PDF should be a good reference when writing the final version of the paper.  Notably, the
